@@ -4,5 +4,5 @@
 
 ### As a twist, you can also add or specify your own list such as the one below and the program will automatically calculate which move takes precedence over which moves.
 
-<img src="/home/glitch/PycharmProjects/Rock-Paper-Scissors/Rock-Paper-Scissors/task/rps/rpsSteriod.jpeg" style="zoom:67%;" />
+<img src="rpsSteriod.jpeg" style="zoom:67%;" />
 
