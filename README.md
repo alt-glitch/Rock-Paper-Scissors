@@ -15,7 +15,7 @@
 
 ### Here is an example of your conventional game:
 
-<img src="conventional_game.gif" style="zoom:80%;" />
+<img src="normal_game.gif" style="zoom:80%;" />
 
 ### And here is an example of a bit complicated Rock-Paper-Scissors-Lizard-Spock game:
 
