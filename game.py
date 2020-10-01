@@ -5,10 +5,7 @@ def calculate_win(user_choice, game_plays, scoreboard, name):
     length = len(game_plays)
     computer_choice = random.choice(game_plays)
 
-    # computer_choice = game_plays[3]
-    # print("computer choice is ", computer_choice)
-
-    if user_choice == computer_choice:
+    if user_choice == computer_choice: # draw
         print("There is a draw ({})".format(user_choice))
         scoreboard[name] += 50
         return 0
@@ -21,8 +18,6 @@ def calculate_win(user_choice, game_plays, scoreboard, name):
         else:
             lose_list.append(game_plays[ind % length])
         ind += 1
-
-    # print(lose_list)
 
     if computer_choice in lose_list:
         print("Sorry, but the computer chose", computer_choice)
@@ -48,8 +43,6 @@ def main():
 
     if len(user_input.split(",")) != 1:
         game_plays.extend(user_input.split(","))
-
-        # print(game_plays)
 
         print("Okay, let's start")
         user_input = str(input())
